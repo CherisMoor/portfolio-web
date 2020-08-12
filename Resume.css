@@ -1,0 +1,152 @@
+nav li{
+	display:inline;
+	font-weight:normal;
+	text-align: center;
+	font-family: serif;
+}
+nav a{
+	text-decoration: none;
+	color:darkblue;
+	text-shadow: 45deg 45deg 45deg;
+	font-family: monospace;
+}
+nav a:hover{
+	text-decoration: underline;
+	color: limegreen;
+}
+/*     html{
+	background-image: url(https://images.unsplash.com/photo-1508717272800-9fff97da7e8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-attachment: fixed;
+	*/
+}
+
+h1 {
+	text-align: right;
+	font-family:Courier New;
+	text-shadow: 5px 5px 5px grey;
+}
+	/*This is an external stylesheet*/
+h2 {
+	color:darkseagreen;
+	font-size:20px;
+	text-align: left;
+} 
+p {
+	color:saddlebrown;
+	font-size: 15px;
+	text-align: right;
+	font-family:Courier New;
+
+}
+li {
+	font-family: lucida console;
+	font-size: 15px;
+	color: darkorchid;
+}
+/*Applying a single rule to multiple elements below*/
+table, th, td {
+	border: 1px solid green;
+	text-align: center;
+}
+table{
+	background-color: indigo;
+	padding: 15px;
+	margin: 0 auto; /*When there is two numbers, the first is for top+bottom, the second is for the right+left*/
+}
+th, td{
+	background-color:white;
+	padding: 5px;
+}
+/*img{
+	border: 10px dotted;
+	padding: 5px;
+	size: 30px;
+	box-shadow: 10px 10px 10px lightblue;
+}*/
+button{
+	border: 2px solid black;
+	padding:10px 25px;
+	display: block;
+	margin-bottom: 20px;
+}
+button:hover{
+	background-color: black;
+	color:white;
+}
+.redButton{
+	border: 2px solid red;
+}
+.redButton:hover{
+	background-color: red;
+}
+.blueButton{
+	border: 2px solid blue;
+}
+.blueButton:hover{
+	background-color: blue;
+}
+.tableHeadingRow{
+	margin-bottom: 10px;
+/*You can't margin Tables*/
+}
+.jobHeader{
+	color:yellow;
+}
+#placesHeader {
+/*The "#" signals an ID*/
+	color:indigo;
+	text-align:center;
+	font-size: 40px;
+}
+.educationImage {
+/*The "." signals a Class */
+	transform: rotate(180deg);
+}
+#headshot{
+	position: absolute;
+	top:13%;
+	left:51%;
+	z-index:-1;
+	/*How to position your photo ID
+	potision:absolute will overlap everything if not positioned correctly*/
+
+{
+/*Link Box Styles*/
+}
+
+.linkBox_content:hover #linkBox_img {
+	transform:scale(1.25);
+}
+#linkBox_content{
+	position: relative;
+	width: 33%;
+	overflow: hidden;
+}
+#linkBox_img{
+	width: 100%;
+	transition: all 1.5s ease-in-out;
+}
+#linkBox_text{
+	position: absolute;
+	top:30%;
+	left:12%;
+
+	color:white;
+	font-size: 25px;
+	font-family: sans-serif;
+}
+div input{
+	color:limegreen;
+}
+form input, form select {
+	display:block;
+}
+.inline{
+	color:green;
+	font-family:inherit; 
+	font-weight:bold;
+	display:inline;
+}
